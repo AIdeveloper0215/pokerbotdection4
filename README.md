@@ -15,5 +15,5 @@ seats at its own table does not. Each hand contributes the hero's percentile
 rank on aggression, fold frequency, and bet-size dispersion; chunk-level rank
 histograms feed a soft vote of ExtraTrees and RandomForest classifiers.
 
-Modules: `seatrank/rank_features.py`, `seatrank/forest.py`, `seatrank/cli.py`.
+Package modules: `seatrank/rank_features.py`, `seatrank/forest.py`, `seatrank/cli.py`.
 MIT licensed.
