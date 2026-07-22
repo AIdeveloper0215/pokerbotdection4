@@ -1,2 +1,12 @@
 __pycache__/
+*.pyc
+.venv/
+venv/
+# trained artifacts and fetched data are not committed
+models/*
+!models/.gitkeep
+dataset.json
 *.joblib
+hands_generator/evaluation_datas/*.txt
+*.log
+.env
